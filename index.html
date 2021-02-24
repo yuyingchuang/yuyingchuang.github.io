@@ -1,117 +1,360 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-     <title>Yu-Ying Chuang</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-     </style>
-</head>
-
-<body>
-
-    <div id="page-wrap">
+<!DOCTYPE html>
+<html>
+<title>Yu-Ying Chuang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif
+}
+</style>
+<body class="w3-light-grey">
+<header class="w3-container w3-teal w3-center w3-margin-top">
+  <h1 class="w3-text-white w3-left">Yu-Ying   Chuang  莊育穎</h1><br>
+</header>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;"> 
+  
+  <!-- The Grid -->
+  <div class="w3-row-padding"> 
     
-        <img src="images/YYC_pic.jpg" alt="Photo of Yu-Ying" width="300" height="200" id="pic" />
-    
-        <div id="contact-info" class="vcard">
-        
-            <!-- Microformats! -->
-        
-            <h1 class="fn">Yu-Ying Chuang 莊育穎</h1>
-        
-            <p>
-                Email: <a class="email" href="mailto:yu-ying.chuang@uni-tuebingen.de">yu-ying.chuang@uni-tuebingen.de</a><br />
-                Phone: <span class="tel">(+49 7071 29-73970)</span><br />
-                Address: Wilhelmstraße 19, 72074 Tübingen, Germany
-            </p>
+    <!-- Left Column -->
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container"> <img src="./YYC.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <!--h3>Yu-Ying Chuang</h3-->
+          </div>
         </div>
-                
-        <div id="objective">
-            <p>
-                My research centers on the exploration and analyses of linguistic phenomena in the production and comprehension of different languages. Currently I am working on the modeling of lexical processing with the approach of discriminative learning. I am also interested in phonetic variation arising from various linguistic and social contexts in speech production and perception. 
-            </p>
+        <div class="w3-container">
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>yu-ying.chuang@uni-tuebingen.de</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+49 (0)7071 29-73970</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Wilhelmstraße 19, 72074 Tübingen, Germany</p>
+          <hr>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_01">Education</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_02">Research experience</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_03">Publications</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_04">Presentations</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_05">Teaching experience</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_06">Reviewing</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_07">Languages</a></p>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="#bookmark_08">Awards</a></p>
+          
         </div>
-        
-        <div class="clear"></div>
-        
-        <dl>
-            <dd class="clear"></dd>
-            
-            <dt>Education</dt>
-            <dd>
-                <h2>PhD in Linguistics</h2>
-                <p>National Taiwan University, Taipei, Taiwan</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Skills</dt>
-            <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Experience</dt>
-            <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
-                <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
-                </ul>
-                
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
-                <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul> 
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
-            <dd class="clear"></dd>
-        </dl>
-        
-        <div class="clear"></div>
-    
+      </div>
+      <br>
+      
+      <!-- End Left Column --> 
     </div>
-
+    
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    <div class="w3-container w3-card w3-white">
+       <div class="w3-container">
+    <br><p>My research centers on the exploration and analyses of linguistic phenomena in the production and comprehension of different languages. Currently I am working on the modeling of lexical processing with the approach of discriminative learning. I am also interested in phonetic variation arising from various linguistic and social contexts in speech production and perception.</p><br>
+</div></div>
+    <br>
+  
+        <!-- Right Column 1-->
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_01">Education</a></h2>
+        <div class="w3-container">
+         <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <h5 class="w3-text-teal"><b>Ph.D. in Linguistics</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan<br>Computational Linguistics and Chinese Language Processing Program, Academia Sinica, Taiwan. </h6>
+          <p class="w3-text-grey">supervised by Professor Janice Fon </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009</h6>
+          <h5 class="w3-text-teal"><b>MA in Linguistics</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan</h6>          
+          <p class="w3-text-grey">supervised by Professor Janice Fon </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+         <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2006</h6>
+          <h5 class="w3-text-teal"><b>BA</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan Normal University</b>, Taipei, Taiwan
+          <br><b>Department of English (major), Department of Chinese (minor)</b></h6>
+          <br>
+        </div>
+      </div>
+      
+      <!-- Right Column 2-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_02">Research experience</a></h2>
+        <div class="w3-container">
+         <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span class="w3-tag w3-teal w3-round">Present</span></h6>
+          <h5 class="w3-text-teal"><b>Postdoctoral researcher</b></h5>
+          <h6 class="w3-opacity"><b>Eberhard Karls Universität</b>, Tübingen, Germany</h6>
+          <p class="w3-text-grey">Project: Wide Incremental learning with Discrimination nEtwork (WIDE-742545) <br>
+            PI: Professor R. Harald Baayen </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2017</h6>
+          <h5 class="w3-text-teal"><b>Research assistant</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan</h6>
+          <p class="w3-text-grey">Project: The effect of prosody and speaker group on production and perception of phonetic variation in Taiwan Mandarin (NSC104-2410-H-002-160-MY3)<br>
+            PI: Professor Janice Fon </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <h5 class="w3-text-teal"><b>Research assistant</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan</h6>
+          <p class="w3-text-grey">Project: Factors affecting the realization of incompletely phonologized rules in spontaneous speech – using the syllable-final nasal merger in Taiwan Mandarin as an example (NSC102-2410-H-002-081-)<br>
+            PI: Professor Janice Fon </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2012</h6>
+          <h5 class="w3-text-teal"><b>Exchange Ph.D. student</b></h5>
+          <h6 class="w3-opacity"><b>University of Provence</b>, Aix-en-Provence, France</h6>
+          <p class="w3-text-grey">Exchange program: Erasmus Mundus – Action 2 Strand 2 Lot 4: Multilingualism and Multiculturalism</p>
+          <br>
+        </div>
+      </div>
+      <br>
+      
+      
+      <!-- Right Column 3-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_03">Publication</a></h2>
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y., J. Fon, I. Papakyritsis and R. H. Baayen (2021). Analyzing phonetic data with generalized additive mixed models. In Ball, M. J., editor, <i>Handbook of Clinical Phonetics</i>, page in press, Routledge. <a href="10.31234/osf.io/bd3r4">[preprint]</a> <a href="https://www.routledge.com/Manual-of-Clinical-Phonetics/Ball/p/book/9780367336288">[website]</a> <a href="osf.io/5wf4v">[supplementary materials]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
+           <h6 class="w3-opacity">Chuang, Y-Y., Bell, M. J., Banke, I., and Baayen, R. H. (2020). Bilingual and Multilingual Mental Lexicon: A Modeling Study With Linear Discriminative Learning. <i>Language Learning</i> , 1-73. <a href="http://www.sfs.uni-tuebingen.de/~hbaayen/publications/ChuangEtAl2020.pdf">[preprint]</a> <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/lang.12435">[doi]</a> <a href="https://osf.io/xq92s/">[supplementary materials]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Chuang, Y-Y., Vollmer, M-l., Shafaei-Bajestan, E., Gahl, S., Hendrix, P., and Baayen, R. H. (2020). The processing of pseudoword form and meaning in production and comprehension: A computational modeling approach using Linear Discriminative Learning. <i>Behavior Research Methods</i>, 1-51. <a href="http://www.sfs.uni-tuebingen.de/~hbaayen/publications/ChuangVollmerEtAl2020.pdf">[preprint]</a> <a href="https://link.springer.com/article/10.3758/s13428-020-01356-w?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst">[doi]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Chuang, Y.-Y., Lõo, K., Blevins, J. P., and Baayen, R. H. (2020). Estonian case inflection made simple. A case study in Word and Paradigm morphology with Linear Discriminative Learning. In Körtvélyessy, L., and Štekauer, P. (Eds.) <i>Complex Words: Advances in Morphology</i>, 119–141, Cambridge University Press. <a href="10.31234/osf.io/hdftz">[preprint]</a> <a href="https://doi.org/10.1017/9781108780643.008">[doi]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019</h6>
+           <h6 class="w3-opacity">Baayen, R. H., Chuang, Y.-Y., Shafaei-Bajestan, E., and Blevins, J. P. (2019). The discriminative lexicon: A unified computational model for the lexicon and lexical processing in comprehension and production grounded not in (de)composition but in linear discriminative learning. <i>Complexity</i>, 2019, 1-39. <a href="http://www.sfs.uni-tuebingen.de/~hbaayen/publications/baayenChuangShafaeiBlevins.pdf">[preprint]</a> <a href="https://www.hindawi.com/journals/complexity/2019/4895891/">[doi]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Cassani, G., Chuang, Y.-Y., and Baayen R. H. (2019). On the semantics of non-words and their lexical category. <i>Journal of Experimental Psychology. Learning, Memory and Cognition</i>, July 18, 1-49. <a href="10.31234/osf.io/qgsef">[preprint]</a> <a href="10.1037/xlm0000747">[doi]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Chuang, Y.-Y., Sun, C. C., Fon, J., and Baayen, R. H. (2019). Geographical variation of the merging between dental and retroflex sibilants in Taiwan Mandarin. In Calhoun, S., Escudero, P., Tabain, M. and Warren, P. (Eds.) <i>Proceedings of the 19th International Congress of Phonetic Sciences</i>, 472-476. <a href="10.31234/osf.io/beapz">[preprint]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Chuang, Y.-Y., Vollmer, M. L., Shafaei-Bajestan, E., Gahl, S., Hendrix, P., and Baayen, R. H. (2019). On the processing of nonwords in word naming and auditory lexical decision. In Calhoun, S., Escudero, P., Tabain, M. and Warren, P. (Eds.) <i>Proceedings of the 19th International Congress of Phonetic Sciences</i>, 1233-1237. <a href="10.31234/osf.io/ekvma">[preprint]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018</h6>
+           <h6 class="w3-opacity">Baayen, R. H., Chuang, Y.-Y., and Blevins, J. P. (2018). Inflectional morphology with linear mappings. <i>The Mental Lexicon</i>, 13 (2), 232-270. <a href="http://www.sfs.uni-tuebingen.de/~hbaayen/publications/BaayenChuangBlevins.pdf">[preprint]</a> <a href="https://doi.org/10.1075/ml.18010.baa">[doi]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Dufour, S., Chuang, Y.-Y., and Nguyen, N. (2018). The processing of dialectal variants: Further insight from French. <i>Applied Psycholinguistics</i>, 40(2): 351–372. <a href="https://hal.archives-ouvertes.fr/hal-01922428/">[preprint]</a> <a href="https://doi.org/10.1017/S0142716418000607">[doi]</a></h6>
+           <br>
+           <h6 class="w3-opacity">Chuang, Y.-Y., and Fon, J. (2018). The effect of speaker gender and talker proficiency on the realization of Taiwan Min /dz/ among young speakers. <i>Lingua Sinica</i>, 4: 1–36.<a href="https://doi.org/10.1186/s40655-017-0033-4">[doi]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y., and Fon, J. (2017). On the dialectal variations of voiced sibilant /dz/ in Taiwan Min young speakers. <i>Lingua Sinica</i>, 4: 1–34. <a href="https://doi.org/10.1186/s40655-016-0016-x">[doi]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y. and Fon, J. (2016). Production and perception of incredulity in Yes-no question intonation in Taiwan Mandarin. <i>Proceedings of the 8th International Conference on Speech Prosody</i>, Paper number 308, 1-5. <a href="https://pdfs.semanticscholar.org/3d7d/3d6ca9bcdc860c507714db8631e3c4d209ad.pdf4">[http]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y., Wang, S.-F. and Fon, J. (2015). Cross-linguistic interaction between two voiced fricatives in Mandarin-Min simultaneous bilinguals. <i>Proceedings of the 18th International Congress of Phonetic Sciences</i>, Paper number 0311, 1-4. <a href="https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2015/Papers/ICPHS0311.pdf">[http]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y. and Fon, J. (2011). Cross-dialectal perception of voiceless dental and retroflex sibilant variants in Taiwan Mandarin. <i>Proceedings of the 17th International Congress of Phonetic Sciences</i>, 496–499. <a href="http://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2011/OnlineProceedings/RegularSession/Chuang,%20Yu-Ying/Chuang,%20Yu-Ying.pdf">[http]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010</h6>
+           <h6 class="w3-opacity">huang, Y.-Y. and Fon, J. (2010). The effect of prosodic prominence on the realizations of voiceless dental and retroflex sibilants in Taiwan Mandarin spontaneous speech. <i>Proceedings of the 5th International Conference on Speech Prosody</i>, No. 100414. <a href="https://www.isca-speech.org/archive/sp2010/sp10_414.html">[http]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y. and Fon, J. (2008). An acoustic study on voiceless retroflex and dental sibilants of young native Min speakers in Taiwan Mandarin [Abstract]. <i>The Journal of the Acoustical Society of America</i>, 123 (5), Pt.2, 3077. <a href="https://doi.org/10.1121/1.2932875">[doi]</a></h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2007</h6>
+           <h6 class="w3-opacity">Chuang, Y.-Y., Huang, Y.-H. and Fon, J. (2007). The effect of incredulity and particle on the intonation of yes/no questions in Taiwan Mandarin. <i>Proceedings of the 16th International Congress of Phonetic Sciences</i>, 1261–1264. <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.499.3572&rep=rep1&type=pdf">[http]</a></h6><br>
+        </div>
+      </div>
+      <br>
+      
+      
+      <!-- Right Column 4-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_04">Presentations</a></h2>
+        <div class="w3-container">
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
+          <h6 class="w3-opacity">Li, J., Chuang, Y.-Y., and Baayen, R. H., Tonal (ir)regularity and word frequency in Mandarin bisyllabic compounds, Words in the World International Conference 2020, St. Catharines, Canada, October 18, 2020 (virtual talk).</h6>
+          <br>
+          <h6 class="w3-opacity">Luo, X., Chuang, Y.-Y., and Baayen, R. H., Implementation of Linear Discriminative Learning in Julia, Words in the World International Conference 2020, St. Catharines, Canada, October 16, 2020 (virtual talk).</h6>
+          <br>
+          <h6 class="w3-opacity">Chuang, Y.-Y., Lõo, K., Blevins, J. P., and Baayen, R. H., Estonian case inflection made simple. A case study in Word and Paradigm morphology with Linear Discriminative Learning, The 19th International Morphology Meeting: PsyComMT, Vienna, Austria, February 7, 2020.</h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019</h6>
+          <h6 class="w3-opacity">Chuang, Y. Y., Do nonwords have meaning? Making sense of nonwords with linear discriminative learning, The 1st NTü Linguistic Workshop, Taipei, Taiwan, November 28, 2019 (invited).</h6>
+          <br>
+          <h6 class="w3-opacity">Chuang, Y. Y., Workshop Linear Discriminative Learning, Spoken Morphology: Phonetics and phonology of complex words (DFG Research Unit FOR 2373), Düsseldorf, Germany, September 23-24, 2019 (invited).</h6>
+          <br>
+          <h6 class="w3-opacity">Chuang, Y. Y., Analyzing speech data with GAMs, Colloquium National Taiwan University, Taipei, Taiwan, August 22, 2019 (invited).</h6>
+           <br>
+          <h6 class="w3-opacity">Chuang, Y. Y., Making sense of auditory nonwords, Groningen Spring School on Cognitive Modeling, Groningen, The Netherlands, April 11, 2019 (keynote).</h6>
+           <br>
+          <h6 class="w3-opacity">Chuang, Y. Y., and Baayen, R. H., Making sense of auditory nonwords, Workshop - "Models of Computational Morpho(phono)logy", Cambridge, UK, February 15, 2019 (invited).</h6>
+          <hr>
+        </div>
+        
+       <div class="w3-container">
+           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016</h6>
+          <h6 class="w3-opacity">Chuang, Y.-Y. and Fon, J., Perception of deretroflexion in Taiwan Mandarin: The 4th Meeting of the New Ways of Analyzing Variation in Asia-Pacific, Chiayi, Taiwan, April, 2016.</h6>
+          <hr>
+        </div>
+        
+        <div class="w3-container">
+           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014</h6>
+          <h6 class="w3-opacity">Chuang, Y.-Y. and Fon, J, Stress-induced variations of voiceless dental and retroflex sibilants in Taiwan Mandarin spontaneous speech, The 14th Conference on Laboratory Phonology, Tokyo, Japan, July, 2014.</h6>
+         <br>
+         <h6 class="w3-opacity">Li, N. and Chuang, Y.-Y., Age 2 toddlers’ imitation of sublexical information has long-term effects on the encoding of novel sound forms, The satellite workshop on Gestural coordination within and between speakers in first language phonological acquisition, the 14th Conference on Laboratory Phonology, Tokyo, Japan, July, 2014.</h6>
+          <hr>
+        </div>
+         
+        <div class="w3-container">
+           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012</h6>
+          <h6 class="w3-opacity">Chuang, Y.-Y., Chiang, Y.-J. and Fon, J, The effects of Min dialect and speech context on the realizations of /ʐ/ variants in Taiwan Mandarin, The 2nd Workshop on Sound Change, Munich, Germany, May, 2012.</h6>
+          <br>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Right Column 5-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_05">Teaching experience</a></h2>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - <span class="w3-tag w3-teal w3-round">Present</span></h6>
+          <h5 class="w3-text-teal"><b>Co-supervisor</b></h5>
+          <h6 class="w3-opacity"><b>Eberhard Karls Universität</b>, Tübingen, Germany</h6>
+          <p class="w3-text-grey">BA: Marie-lenka Vollmer, Isabelle Banke, Jingwen Li<br>MA: Xuefeng Luo</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 (May 4–7)</h6>
+          <h5 class="w3-text-teal"><b>Co-instructor</b></h5>
+          <h6 class="w3-opacity"><b>Virtual Master Class in Quantitative Linguistics</b>, Tartu, Estonia</h6>
+          <p class="w3-text-grey">Course: Computational modeling of Discriminative Learning</p>
+          <hr>
+          </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 (May 13–18)</h6>
+          <h5 class="w3-text-teal"><b>Co-instructor</b></h5>
+          <h6 class="w3-opacity"><b>Spring Training in Experimental Psycholinguistics</b>, Edmonton, Canada</h6>
+          <p class="w3-text-grey">Course: Modeling lexical processing with Linear Discriminative Learning</p>
+          <hr>
+          </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+          <h5 class="w3-text-teal"><b>Teaching assistant</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan</h6>
+          <p class="w3-text-grey">Course: Advanced Phonetics</p>
+          <hr>
+          </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015</h6>
+          <h5 class="w3-text-teal"><b>Instructor</b></h5>
+          <h6 class="w3-opacity"><b>Shih Hsin University</b>, Taipei, Taiwan</h6>
+          <p class="w3-text-grey">Course: Introduction to English Phonology</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2011</h6>
+          <h5 class="w3-text-teal"><b>Teaching assistant</b></h5>
+          <h6 class="w3-opacity"><b>National Taiwan University</b>, Taipei, Taiwan</h6>
+          <p class="w3-text-grey">Course: NTU Online English Program</p>
+          <br>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Right Column 6-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_06">Reviewing</a></h2>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><b>Journal of Phonetics; Frontiers in Communication; Linguistics Vanguard; Morphology; Psychological Research.</b></h5>
+          <br>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Right Column 7-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_07">Languages</a></h2>
+        <div class="w3-container">
+          <h5 class="w3-text-teal"><b>Chinese</b></h5>
+          <h6 class="w3-opacity">Mandarin, Taiwan Southern Min (native)</h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text-teal"><b>European</b></h5>
+          <h6 class="w3-opacity">English (advanced), German, French (intermediate)</h6>
+          <br>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Right Column 8-->
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i><a name="bookmark_08">Awards</a></h2>
+        <div class="w3-container">
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016</h6>
+           <h5 class="w3-text-teal"><b>Fu Sinian Scholarship</b></h5>
+          <h6 class="w3-opacity"><b>Academia Sinica</b>, Taipei, Taiwan</h6>
+          <br>
+        </div>
+      </div>
+      
+      
+      
+      <!-- End Right Column --> 
+    </div>
+    
+    <!-- End Grid --> 
+  </div>
+  
+  <!-- End Page Container --> 
+</div>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <br>
+<p>Powered by w3.css</p>
+<br>
+</footer>
 </body>
-
 </html>
